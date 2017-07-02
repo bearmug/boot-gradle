@@ -8,10 +8,12 @@ repositories {
 }
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.11.8'
-    compile "org.springframework.boot:spring-boot-starter-web"
-    compile "org.thymeleaf:thymeleaf-spring4"
-    compile "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect"
+    compile(
+            'org.scala-lang:scala-library:2.11.8',
+            'org.springframework.boot:spring-boot-starter-web',
+            'org.thymeleaf:thymeleaf-spring4',
+            'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+    )
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.scalatest:scalatest_2.11:3.0.1'
