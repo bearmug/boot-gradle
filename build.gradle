@@ -1,0 +1,22 @@
+plugins {
+    id 'scala'
+    id 'org.springframework.boot' version '1.5.4.RELEASE'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile(
+            'org.scala-lang:scala-library:2.11.8',
+            'org.springframework.boot:spring-boot-starter-web',
+            'org.thymeleaf:thymeleaf-spring4',
+            'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+    )
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.scalatest:scalatest_2.11:3.0.1'
+    testRuntime 'org.scala-lang.modules:scala-xml_2.11:1.0.6'
+}
+
