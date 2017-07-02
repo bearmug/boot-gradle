@@ -1,4 +1,6 @@
-package org.bearmug.boot.model;
+package org.bearmug.boot.controller;
+
+import org.bearmug.boot.model.Shipwreck;
 
 import java.util.ArrayList;
 import java.util.HashMap;
