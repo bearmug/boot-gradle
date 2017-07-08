@@ -13,6 +13,7 @@ dependencies {
             'org.springframework.boot:spring-boot-starter-web',
             'org.springframework.boot:spring-boot-starter-data-jpa',
             'com.h2database:h2',
+            'org.flywaydb:flyway-core',
             'org.thymeleaf:thymeleaf-spring4',
             'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
     )
